@@ -1,5 +1,8 @@
 # Effect of News Sentiment on Implied Volatility
-This project examines the relationship between news sentiment and implied volatility and determines whether there is a significant correlation between the two
+
+Quantitative analysts are professional who use mathematical statistical methods to help companies make business and financial decisions, as well as identifying patterns, trends, and opportunities in investment. They can analyze markets, assess risk, and develop models for pricing and trading. One such area of interest can be understanding the impact of news on market behavior. We attempt to make statistical inferences based on financial data similar to a quantitative analyst. This project serves as a stepping stone into the world of finance, specifically implied volatility.
+
+We will be looking at a few of the crucial barometers of market impact: implied volatility (IV), sentiment, and polarity. The question we would like to answer is the following: Is there a relationship (significant or not) between news sentiment and implied volatility? Before we define implied volatility, let us compare it to volatility as they represent different aspects of market behavior. 
 
 ## Table of Contents
 
@@ -14,10 +17,6 @@ This project examines the relationship between news sentiment and implied volati
 - [References](#references)
 
 ## Introduction
-
-Quantitative analysts are professional who use mathematical statistical methods to help companies make business and financial decisions, as well as identifying patterns, trends, and opportunities in investment. They can analyze markets, assess risk, and develop models for pricing and trading. One such area of interest can be understanding the impact of news on market behavior. We attempt to make statistical inferences based on financial data similar to a quantitative analyst. This project serves as a stepping stone into the world of finance, specifically implied volatility.
-
-We will be looking at a few of the crucial barometers of market impact: implied volatility (IV), sentiment, and polarity. The question we would like to answer is the following: Is there a relationship (significant or not) between news sentiment and implied volatility? Before we define implied volatility, let us compare it to volatility as they represent different aspects of market behavior. 
 
 **Volatility** is a measure of the standard deviation of an asset's price, reflecting the historical price fluctuations. It is measured by the standard deviance of the data and provides information about past risk and uncertainty in the market. According to Investopedia.com, **Implied volatility** is the expected future volatility of an asset that is “implied” by the prices of its options contracts. It is a measure of the expected future volatility of an asset. 
 
