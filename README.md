@@ -46,7 +46,7 @@ Then, we tokenized the strings using the same package, and created new dataframe
 
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure1.png?raw=true) 
 <p align="left">
-    Figure 1 - Confusion Matrix for Predicted Labels vs. True Label for Topics
+    <ins>Figure 1 - Confusion Matrix for Predicted Labels vs. True Label for Topics</ins>
 </p>
 
 The above confusion matrix compares the predicted labels for the topic we would like to classify into (Ex. world news) and the true labels. We can see visually that most of the true and predicted are the same for world news in the top left corner. However, we did notice issues with multiple categories being assigned 0 for its topic, and also many of the world news articles were assigned a topic number “3” as well. Most of the world news articles were assigned a topic number of 0 however, so for our purposes we are only interested in collecting those that receive a 0, so we are not classifying or mapping the values 1-3.
@@ -71,7 +71,7 @@ We first look at the relationship between IV of SPY and the sentiment of US and 
 
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure2.png?raw=true) 
 <p align="left">
-    Figure 2 - Comparing IV SPY Index to Sentiment of US and Business News
+    <ins>Figure 2 - Comparing IV SPY Index to Sentiment of US and Business News</ins>
 </p>
 
 From Figure 2, looking at all four charts plotting the relationship between implied volatility and sentiment, we can see that there appears to be a very weak relationship between the IV of SPY and all of the sentiment metrics of the US and business news combined. There does not appear to be a significant increasing or decreasing pattern among all 4 plots. This hints at a very weak correlation between IV and changes in subjectivity and polarity. 
@@ -80,7 +80,7 @@ Now, we look at the relationship between the implied volatility of QQQ and senti
 
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure3.png?raw=true) 
 <p align="left">
-    Figure 3 - Comparing IV QQQ Index to Sentiment of Tech News
+    <ins>Figure 3 - Comparing IV QQQ Index to Sentiment of Tech News</ins>
 </p>
 
 From Figure 3, there appears to be a slight downward trend between IV and headline polarity, and between IV and content polarity, which implies a weak negative relationship. The other two scatterplots do not show any signs of a strong relationship. So overall, there is a weak link between IV of QQQ and sentiment of tech news. 
@@ -89,7 +89,7 @@ Finally, we look at the relationships between the IV of GSG and the sentiment of
 
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure4.png?raw=true) 
 <p align="left">
-    Figure 4 - Comparing IV GSG Index to Sentiment of World and Commodities News
+    <ins>Figure 4 - Comparing IV GSG Index to Sentiment of World and Commodities News</ins>
 </p>
 
 From Figure 4, we see that there appears to be a weak to moderate negative relationship between IV and content polarity,  IV and content subjectivity. The other two scatterplots do not show any signs of a strong relationship. So overall, there is a weak to moderate relationship between the IV of GSG and sentiment metrics of world and commodities news.
@@ -118,7 +118,7 @@ From looking at the correlation heatmaps of all three combinations, we find that
 
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure8.png?raw=true) 
 <p align="left">
-    Figure 8 - Boxplots for Content Polarity and Subjectivity (Combined)
+    <ins>Figure 8 - Boxplots for Content Polarity and Subjectivity (Combined)</ins>
 </p>
 
 Plotting the combined boxplot (Using all news sources) for content subjectivity and content polarity, we also note a few interesting observations. First, that the overall subjectivity has more spread than polarity, and secondly, there are less outliers for subjectivity in comparison to the polarity. 
