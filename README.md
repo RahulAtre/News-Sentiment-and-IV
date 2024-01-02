@@ -143,19 +143,10 @@ For the COVID analysis, we can see that for IV of SPY and QQQ, the linear regres
 
 In addition to the linear relationships that were explored for IV and sentiment, we tried using more complex regression techniques to better fit the data. Here are the results we obtained for the three indexes: 
 
-<p align="left">
-    <ins>Table 1: Comparison of Different Regression Models for SPY</ins>
-</p>
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Table1.png?raw=true) 
 
-<p align="left">
-    <ins>Table 2: Comparison of Different Regression Models for QQQ</ins>
-</p>
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Table2.png?raw=true) 
 
-<p align="left">
-    <ins>Table 3: Comparison of Different Regression Models for GSG</ins> 
-</p>
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Table3.png?raw=true) 
 
 We can see immediately that XGBoost performed drastically better than the other regression models. For all three IV indexes, XGBoost had a performance above 97%. It had a mean-squared error of roughly 2.09% on GSG, and nearly 0% on SPY and QQQ. The likely explanation for this after exploring the model's algorithm, is due to its exceptional ability of capturing complex nonlinear relationships. We are also sure that it is not overfitting, since XGBoost incorporates regularization techniques and generalizes well to unseen data. Traditional linear models like least-squares and ridge struggle to capture non-linearities, hence explaining their significantly lower R^2 values of around 11-12%.
