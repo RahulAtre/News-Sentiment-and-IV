@@ -96,22 +96,22 @@ From Figure 4, we see that there appears to be a weak to moderate negative relat
 
 Now, we analyze the correlation heatmaps of IV (from each of the three indexes) and the sentiment of its corresponding news sources. By doing so, we can have a preliminary understanding of how much correlation there is between IV, polarity and subjectivity in general, as well as the correlation between subjectivity and polarity for both news headlines and content.
 
-<ins>IV vs. Sentiment (SPY)<ins>
+**IV vs. Sentiment (SPY)**
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure5.png?raw=true) 
 <p align="left">
-    Figure 5 - Correlation Matrix of IV and Sentiment Metrics (SPY)
+    <ins>Figure 5 - Correlation Matrix of IV and Sentiment Metrics (SPY)</ins>
 </p>
 
-<ins>IV vs. Sentiment (QQQ)<ins>
+**IV vs. Sentiment (QQQ)**
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure6.png?raw=true) 
 <p align="left">
-    Figure 6 - Correlation Matrix of IV and Sentiment Metrics (QQQ)
+    <ins>Figure 6 - Correlation Matrix of IV and Sentiment Metrics (QQQ)</ins>
 </p>
 
-<ins>IV vs. Sentiment (GSG)<ins>
+**IV vs. Sentiment (GSG)**
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure7.png?raw=true) 
 <p align="left">
-    Figure 7 - Correlation Matrix of IV and Sentiment Metrics (GSG)
+    <ins>Figure 7 - Correlation Matrix of IV and Sentiment Metrics (GSG)</ins>
 </p>
 
 From looking at the correlation heatmaps of all three combinations, we find that there is an overall very weak to negligible correlation between IV and the four sentiment metrics. However, there is a moderate to strong relationship between headline polarity and headline subjectivity, and between content polarity and content subjectivity. 
@@ -125,16 +125,16 @@ Plotting the combined boxplot (Using all news sources) for content subjectivity 
 
 ### Inferences from COVID-19
 
-<ins>IV vs. Sentiment (SVP) [COVID]<ins>
+**IV vs. Sentiment (SVP) [COVID]**
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure9.png?raw=true) 
 <p align="left">
-    Figure 9 - Comparing IV SPY Index to Sentiment of US and Business News (COVID)
+    <ins>Figure 9 - Comparing IV SPY Index to Sentiment of US and Business News (COVID)</ins>
 </p>
 
 <ins>IV vs. Sentiment (GSG) [COVID]<ins>
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure10.png?raw=true) 
 <p align="left">
-    Figure 10 - Comparing IV GSG Index to Sentiment of World and Commodities News (COVID)
+    <ins>Figure 10 - Comparing IV GSG Index to Sentiment of World and Commodities News (COVID)</ins>
 </p>
 
 For the COVID analysis, we can see that for IV of SPY and QQQ, the linear regression models lead to a worse fit. The linear regression model for GSG IV however, leads to a better fit. We are unsure of the exact cause of why the correlation factor for the various indexes increased and decreased. However, it does show that when there is uncertainty and fear in the market, it leads to fluctuations in the relationship between IV and sentiment. 
@@ -144,17 +144,17 @@ For the COVID analysis, we can see that for IV of SPY and QQQ, the linear regres
 In addition to the linear relationships that were explored for IV and sentiment, we tried using more complex regression techniques to better fit the data. Here are the results we obtained for the three indexes: 
 
 <p align="left">
-    Table 1: Comparison of Different Regression Models for SPY 
+    <ins>Table 1: Comparison of Different Regression Models for SPY</ins>
 </p>
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Table1.png?raw=true) 
 
 <p align="left">
-    Table 2: Comparison of Different Regression Models for QQQ 
+    <ins>Table 2: Comparison of Different Regression Models for QQQ</ins>
 </p>
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Table2.png?raw=true) 
 
 <p align="left">
-    Table 3: Comparison of Different Regression Models for GSG 
+    <ins>Table 3: Comparison of Different Regression Models for GSG</ins> 
 </p>
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Table3.png?raw=true) 
 
