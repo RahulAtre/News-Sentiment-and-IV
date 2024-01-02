@@ -131,7 +131,7 @@ Plotting the combined boxplot (Using all news sources) for content subjectivity 
     <ins>Figure 9 - Comparing IV SPY Index to Sentiment of US and Business News (COVID)</ins>
 </p>
 
-<ins>IV vs. Sentiment (GSG) [COVID]<ins>
+**IV vs. Sentiment (GSG) [COVID]**
 ![alt text](https://github.com/RahulAtre/News-Sentiment-and-IV/blob/main/Project-Images/Figure10.png?raw=true) 
 <p align="left">
     <ins>Figure 10 - Comparing IV GSG Index to Sentiment of World and Commodities News (COVID)</ins>
