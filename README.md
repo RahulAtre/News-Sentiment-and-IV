@@ -1,9 +1,6 @@
 # Effect of News Sentiment on Implied Volatility
 This project examines the relationship between news sentiment and implied volatility and determines whether there is a significant correlation between the two
 
-**File Structure:**
-
-
 ## Table of Contents
 
 - [Introduction](#introduction)
