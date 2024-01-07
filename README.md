@@ -15,6 +15,7 @@ We will be looking at a few of the crucial barometers of market impact: implied 
 - [Conclusion](#conclusion)
   - [Ethical Concerns](#ethical-concerns)
 - [References](#references)
+- [Contributers](#contributers)
 
 ## Introduction
 
@@ -183,7 +184,7 @@ All the news. (2017, August 20). Kaggle.
 News articles. (2017b, April 30). Kaggle. 
   https://www.kaggle.com/datasets/asad1m9a9h6mood/news-articles
 
-## Creaters, Designers, Artists, Developers
+## Contributers
 
 - Rahul Atre 🤖
 - Joe Zhang 💜
