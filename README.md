@@ -182,3 +182,9 @@ All the news. (2017, August 20). Kaggle.
   
 News articles. (2017b, April 30). Kaggle. 
   https://www.kaggle.com/datasets/asad1m9a9h6mood/news-articles
+
+## Creaters, Designers, Artists, Developers
+
+- Rahul Atre 🤖
+- Joe Zhang 💜
+- Mohamed Shakir 🚀
